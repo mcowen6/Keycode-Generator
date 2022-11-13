@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container #keycodeLarge{
+    height: inherit;
+    width:inherit;
+    font-size: 20rem;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    display:  flex;
+}
+
+.keyboard-events{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 350px;
+    align-items: center;
+}
+
+.container {
+    border: 4px solid black;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+body { 
+    background-color: bisque;
+    margin: 20px;
+}
+
+.ekey-box{
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 0 100px;
+}
+
+.ecode-box{
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 0 100px;
+}
+
+.ewhich-box{
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 0 100px;
+}
+
+h3 {
+    border-bottom: 3px solid black;
+}
